@@ -12,4 +12,5 @@ def get_chuck_norris_jokes():
 
     image_tag ="<img src=" + response['icon_url'] + "alt='Chuck's Image'>"
 
-    return "<strong>Random joke from chuck norris: </strong>" + response['value']
+    return "<strong>Random joke from chuck norris: </strong>" + response['value'] + image_tag
+
